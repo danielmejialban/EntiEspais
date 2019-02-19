@@ -16,10 +16,16 @@ namespace EntiEspais
         private bool dragging = false;
         private Point dragCursorPoint;
         private Point dragFormPoint;
-
         public Form1()
         {
             InitializeComponent();
+
+            // Para quitar el fondo de los textBox
+            textBoxNom.BackColor = this.BackColor;
+            textBoxEmail.BackColor = this.BackColor;
+            textBoxContrassenya.BackColor = this.BackColor;
+            textBoxRepetirContrasenya.BackColor = this.BackColor;
+
         }
 
         private void buttonCloseApp_Click(object sender, EventArgs e)
