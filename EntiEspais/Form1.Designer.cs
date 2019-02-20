@@ -51,7 +51,8 @@
             this.textBoxNom.Name = "textBoxNom";
             this.textBoxNom.Size = new System.Drawing.Size(514, 33);
             this.textBoxNom.TabIndex = 1;
-            this.textBoxNom.Text = "Nom";
+            this.textBoxNom.Click += new System.EventHandler(this.textBoxNom_Click);
+            this.textBoxNom.Leave += new System.EventHandler(this.textBoxNom_Leave);
             // 
             // textBoxEmail
             // 
@@ -63,7 +64,8 @@
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(514, 33);
             this.textBoxEmail.TabIndex = 2;
-            this.textBoxEmail.Text = "Email";
+            this.textBoxEmail.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBoxEmail_MouseClick);
+            this.textBoxEmail.Leave += new System.EventHandler(this.textBoxEmail_Leave);
             // 
             // textBoxContrassenya
             // 
@@ -75,7 +77,8 @@
             this.textBoxContrassenya.Name = "textBoxContrassenya";
             this.textBoxContrassenya.Size = new System.Drawing.Size(514, 33);
             this.textBoxContrassenya.TabIndex = 3;
-            this.textBoxContrassenya.Text = "Contrasenya";
+            this.textBoxContrassenya.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBoxContrassenya_MouseClick);
+            this.textBoxContrassenya.Leave += new System.EventHandler(this.textBoxContrassenya_Leave);
             // 
             // textBoxRepetirContrasenya
             // 
@@ -87,7 +90,8 @@
             this.textBoxRepetirContrasenya.Name = "textBoxRepetirContrasenya";
             this.textBoxRepetirContrasenya.Size = new System.Drawing.Size(514, 33);
             this.textBoxRepetirContrasenya.TabIndex = 4;
-            this.textBoxRepetirContrasenya.Text = "Repetir contrasenya";
+            this.textBoxRepetirContrasenya.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBoxRepetirContrasenya_MouseClick);
+            this.textBoxRepetirContrasenya.Leave += new System.EventHandler(this.textBoxRepetirContrasenya_Leave);
             // 
             // buttonRegistrarse
             // 
@@ -104,6 +108,7 @@
             this.buttonRegistrarse.TabIndex = 5;
             this.buttonRegistrarse.Text = "Registrar-se";
             this.buttonRegistrarse.UseVisualStyleBackColor = false;
+            this.buttonRegistrarse.Click += new System.EventHandler(this.buttonRegistrarse_Click);
             // 
             // buttonIniciarSessio
             // 
