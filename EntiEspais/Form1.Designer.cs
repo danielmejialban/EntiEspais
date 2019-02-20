@@ -29,15 +29,106 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.buttonMinimizeApp = new System.Windows.Forms.Button();
-            this.buttonCloseApp = new System.Windows.Forms.Button();
             this.textBoxNom = new System.Windows.Forms.TextBox();
             this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.textBoxContrassenya = new System.Windows.Forms.TextBox();
             this.textBoxRepetirContrasenya = new System.Windows.Forms.TextBox();
             this.buttonRegistrarse = new System.Windows.Forms.Button();
             this.buttonIniciarSessio = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonMinimizeApp = new System.Windows.Forms.Button();
+            this.buttonCloseApp = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // textBoxNom
+            // 
+            this.textBoxNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
+            this.textBoxNom.ForeColor = System.Drawing.Color.White;
+            this.textBoxNom.Location = new System.Drawing.Point(158, 272);
+            this.textBoxNom.Margin = new System.Windows.Forms.Padding(90, 30, 90, 3);
+            this.textBoxNom.Name = "textBoxNom";
+            this.textBoxNom.Size = new System.Drawing.Size(514, 33);
+            this.textBoxNom.TabIndex = 2;
+            this.textBoxNom.Text = "Nom";
+            // 
+            // textBoxEmail
+            // 
+            this.textBoxEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.ForeColor = System.Drawing.Color.White;
+            this.textBoxEmail.Location = new System.Drawing.Point(158, 338);
+            this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(514, 33);
+            this.textBoxEmail.TabIndex = 3;
+            this.textBoxEmail.Text = "Email";
+            // 
+            // textBoxContrassenya
+            // 
+            this.textBoxContrassenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxContrassenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxContrassenya.ForeColor = System.Drawing.Color.White;
+            this.textBoxContrassenya.Location = new System.Drawing.Point(158, 404);
+            this.textBoxContrassenya.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
+            this.textBoxContrassenya.Name = "textBoxContrassenya";
+            this.textBoxContrassenya.Size = new System.Drawing.Size(514, 33);
+            this.textBoxContrassenya.TabIndex = 4;
+            this.textBoxContrassenya.Text = "Contrasenya";
+            // 
+            // textBoxRepetirContrasenya
+            // 
+            this.textBoxRepetirContrasenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxRepetirContrasenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxRepetirContrasenya.ForeColor = System.Drawing.Color.White;
+            this.textBoxRepetirContrasenya.Location = new System.Drawing.Point(158, 470);
+            this.textBoxRepetirContrasenya.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
+            this.textBoxRepetirContrasenya.Name = "textBoxRepetirContrasenya";
+            this.textBoxRepetirContrasenya.Size = new System.Drawing.Size(514, 33);
+            this.textBoxRepetirContrasenya.TabIndex = 5;
+            this.textBoxRepetirContrasenya.Text = "Repetir contrasenya";
+            // 
+            // buttonRegistrarse
+            // 
+            this.buttonRegistrarse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(99)))), ((int)(((byte)(113)))));
+            this.buttonRegistrarse.Cursor = System.Windows.Forms.Cursors.Default;
+            this.buttonRegistrarse.FlatAppearance.BorderSize = 0;
+            this.buttonRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
+            this.buttonRegistrarse.ForeColor = System.Drawing.Color.White;
+            this.buttonRegistrarse.Location = new System.Drawing.Point(463, 556);
+            this.buttonRegistrarse.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
+            this.buttonRegistrarse.Name = "buttonRegistrarse";
+            this.buttonRegistrarse.Size = new System.Drawing.Size(209, 51);
+            this.buttonRegistrarse.TabIndex = 6;
+            this.buttonRegistrarse.Text = "Registrar-se";
+            this.buttonRegistrarse.UseVisualStyleBackColor = false;
+            // 
+            // buttonIniciarSessio
+            // 
+            this.buttonIniciarSessio.FlatAppearance.BorderSize = 0;
+            this.buttonIniciarSessio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonIniciarSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Underline);
+            this.buttonIniciarSessio.ForeColor = System.Drawing.Color.White;
+            this.buttonIniciarSessio.Location = new System.Drawing.Point(267, 640);
+            this.buttonIniciarSessio.Margin = new System.Windows.Forms.Padding(3, 30, 3, 30);
+            this.buttonIniciarSessio.Name = "buttonIniciarSessio";
+            this.buttonIniciarSessio.Size = new System.Drawing.Size(286, 46);
+            this.buttonIniciarSessio.TabIndex = 7;
+            this.buttonIniciarSessio.Text = "Iniciar sessió";
+            this.buttonIniciarSessio.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::EntiEspais.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(332, 39);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // buttonMinimizeApp
             // 
@@ -46,7 +137,8 @@
             this.buttonMinimizeApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMinimizeApp.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonMinimizeApp.Image = global::EntiEspais.Properties.Resources.minus;
-            this.buttonMinimizeApp.Location = new System.Drawing.Point(781, 12);
+            this.buttonMinimizeApp.Location = new System.Drawing.Point(779, 12);
+            this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(3, 3, 5, 3);
             this.buttonMinimizeApp.Name = "buttonMinimizeApp";
             this.buttonMinimizeApp.Size = new System.Drawing.Size(25, 23);
             this.buttonMinimizeApp.TabIndex = 1;
@@ -65,84 +157,13 @@
             this.buttonCloseApp.UseVisualStyleBackColor = true;
             this.buttonCloseApp.Click += new System.EventHandler(this.buttonCloseApp_Click);
             // 
-            // textBoxNom
-            // 
-            this.textBoxNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
-            this.textBoxNom.ForeColor = System.Drawing.Color.White;
-            this.textBoxNom.Location = new System.Drawing.Point(154, 99);
-            this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(514, 33);
-            this.textBoxNom.TabIndex = 2;
-            this.textBoxNom.Text = "Nom";
-            // 
-            // textBoxEmail
-            // 
-            this.textBoxEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.ForeColor = System.Drawing.Color.White;
-            this.textBoxEmail.Location = new System.Drawing.Point(154, 176);
-            this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(514, 33);
-            this.textBoxEmail.TabIndex = 3;
-            this.textBoxEmail.Text = "Email";
-            // 
-            // textBoxContrassenya
-            // 
-            this.textBoxContrassenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxContrassenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxContrassenya.ForeColor = System.Drawing.Color.White;
-            this.textBoxContrassenya.Location = new System.Drawing.Point(154, 249);
-            this.textBoxContrassenya.Name = "textBoxContrassenya";
-            this.textBoxContrassenya.Size = new System.Drawing.Size(514, 33);
-            this.textBoxContrassenya.TabIndex = 4;
-            this.textBoxContrassenya.Text = "Contrasenya";
-            // 
-            // textBoxRepetirContrasenya
-            // 
-            this.textBoxRepetirContrasenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxRepetirContrasenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRepetirContrasenya.ForeColor = System.Drawing.Color.White;
-            this.textBoxRepetirContrasenya.Location = new System.Drawing.Point(154, 319);
-            this.textBoxRepetirContrasenya.Name = "textBoxRepetirContrasenya";
-            this.textBoxRepetirContrasenya.Size = new System.Drawing.Size(514, 33);
-            this.textBoxRepetirContrasenya.TabIndex = 5;
-            this.textBoxRepetirContrasenya.Text = "Repetir contrasenya";
-            // 
-            // buttonRegistrarse
-            // 
-            this.buttonRegistrarse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(99)))), ((int)(((byte)(113)))));
-            this.buttonRegistrarse.Cursor = System.Windows.Forms.Cursors.Default;
-            this.buttonRegistrarse.FlatAppearance.BorderSize = 0;
-            this.buttonRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
-            this.buttonRegistrarse.ForeColor = System.Drawing.Color.White;
-            this.buttonRegistrarse.Location = new System.Drawing.Point(459, 392);
-            this.buttonRegistrarse.Name = "buttonRegistrarse";
-            this.buttonRegistrarse.Size = new System.Drawing.Size(209, 51);
-            this.buttonRegistrarse.TabIndex = 6;
-            this.buttonRegistrarse.Text = "Registrar-se";
-            this.buttonRegistrarse.UseVisualStyleBackColor = false;
-            // 
-            // buttonIniciarSessio
-            // 
-            this.buttonIniciarSessio.FlatAppearance.BorderSize = 0;
-            this.buttonIniciarSessio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonIniciarSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Underline);
-            this.buttonIniciarSessio.ForeColor = System.Drawing.Color.White;
-            this.buttonIniciarSessio.Location = new System.Drawing.Point(264, 474);
-            this.buttonIniciarSessio.Name = "buttonIniciarSessio";
-            this.buttonIniciarSessio.Size = new System.Drawing.Size(286, 46);
-            this.buttonIniciarSessio.TabIndex = 7;
-            this.buttonIniciarSessio.Text = "Iniciar sessió";
-            this.buttonIniciarSessio.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(222)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(849, 552);
+            this.ClientSize = new System.Drawing.Size(849, 719);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonIniciarSessio);
             this.Controls.Add(this.buttonRegistrarse);
             this.Controls.Add(this.textBoxRepetirContrasenya);
@@ -160,6 +181,7 @@
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,6 +197,7 @@
         private System.Windows.Forms.TextBox textBoxRepetirContrasenya;
         private System.Windows.Forms.Button buttonRegistrarse;
         private System.Windows.Forms.Button buttonIniciarSessio;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
