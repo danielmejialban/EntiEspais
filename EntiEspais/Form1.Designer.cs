@@ -67,10 +67,11 @@
             // textBoxNom
             // 
             this.textBoxNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.13F);
+            this.textBoxNom.ForeColor = System.Drawing.Color.White;
             this.textBoxNom.Location = new System.Drawing.Point(154, 99);
             this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(514, 33);
+            this.textBoxNom.Size = new System.Drawing.Size(514, 25);
             this.textBoxNom.TabIndex = 2;
             this.textBoxNom.Text = "Nom";
             // 
@@ -78,7 +79,8 @@
             // 
             this.textBoxEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(154, 155);
+            this.textBoxEmail.ForeColor = System.Drawing.Color.White;
+            this.textBoxEmail.Location = new System.Drawing.Point(154, 176);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(514, 33);
             this.textBoxEmail.TabIndex = 3;
@@ -88,7 +90,8 @@
             // 
             this.textBoxContrassenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxContrassenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxContrassenya.Location = new System.Drawing.Point(154, 210);
+            this.textBoxContrassenya.ForeColor = System.Drawing.Color.White;
+            this.textBoxContrassenya.Location = new System.Drawing.Point(154, 249);
             this.textBoxContrassenya.Name = "textBoxContrassenya";
             this.textBoxContrassenya.Size = new System.Drawing.Size(514, 33);
             this.textBoxContrassenya.TabIndex = 4;
@@ -98,7 +101,8 @@
             // 
             this.textBoxRepetirContrasenya.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxRepetirContrasenya.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxRepetirContrasenya.Location = new System.Drawing.Point(154, 267);
+            this.textBoxRepetirContrasenya.ForeColor = System.Drawing.Color.White;
+            this.textBoxRepetirContrasenya.Location = new System.Drawing.Point(154, 319);
             this.textBoxRepetirContrasenya.Name = "textBoxRepetirContrasenya";
             this.textBoxRepetirContrasenya.Size = new System.Drawing.Size(514, 33);
             this.textBoxRepetirContrasenya.TabIndex = 5;
@@ -111,7 +115,7 @@
             this.buttonRegistrarse.FlatAppearance.BorderSize = 0;
             this.buttonRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRegistrarse.ForeColor = System.Drawing.Color.White;
-            this.buttonRegistrarse.Location = new System.Drawing.Point(512, 331);
+            this.buttonRegistrarse.Location = new System.Drawing.Point(512, 388);
             this.buttonRegistrarse.Name = "buttonRegistrarse";
             this.buttonRegistrarse.Size = new System.Drawing.Size(156, 51);
             this.buttonRegistrarse.TabIndex = 6;
@@ -136,6 +140,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registrar-se";
+            this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);

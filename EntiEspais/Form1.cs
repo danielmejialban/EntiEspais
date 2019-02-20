@@ -25,7 +25,7 @@ namespace EntiEspais
             textBoxEmail.BackColor = this.BackColor;
             textBoxContrassenya.BackColor = this.BackColor;
             textBoxRepetirContrasenya.BackColor = this.BackColor;
-
+                        
         }
 
         private void buttonCloseApp_Click(object sender, EventArgs e)
@@ -65,6 +65,34 @@ namespace EntiEspais
         {
             // Sirve para mover la ventana (3 - Cuando sueltas el botón de clik)
             dragging = false;
+        }
+
+        private void Form1_Paint(object sender, PaintEventArgs e)
+        {
+            // Dibuja los rectangulos en los textbox. 
+            // TextBox nom
+            textBoxNom.BorderStyle = BorderStyle.None;
+            Pen p = new Pen(Color.White);
+            p.Width = 2.0F;
+            Graphics g = e.Graphics;
+            int variance = 3;
+            Rectangle rectTextBoxNom = new Rectangle(textBoxNom.Location.X - variance, textBoxNom.Location.Y - variance, textBoxNom.Width + variance, textBoxNom.Height + variance);
+            g.DrawRectangle(p, rectTextBoxNom);
+
+            // TextBox email
+            textBoxEmail.BorderStyle = BorderStyle.None;
+            Rectangle rectTextBoxEmail = new Rectangle(textBoxEmail.Location.X - variance, textBoxEmail.Location.Y - variance, textBoxEmail.Width + variance, textBoxEmail.Height + variance);
+            g.DrawRectangle(p, rectTextBoxEmail);
+
+            // Textbox Contrassenya
+            textBoxContrassenya.BorderStyle = BorderStyle.None;
+            Rectangle rectTextBoxContrassenya = new Rectangle(textBoxContrassenya.Location.X - variance, textBoxContrassenya.Location.Y - variance, textBoxContrassenya.Width + variance, textBoxContrassenya.Height + variance);
+            g.DrawRectangle(p, rectTextBoxContrassenya);
+
+            // TextBox Repetir Contrassenya
+            textBoxRepetirContrasenya.BorderStyle = BorderStyle.None;
+            Rectangle rectTextBoxRepetirContrassenya = new Rectangle(textBoxRepetirContrasenya.Location.X - variance, textBoxRepetirContrasenya.Location.Y - variance, textBoxRepetirContrasenya.Width + variance, textBoxRepetirContrasenya.Height + variance);
+            g.DrawRectangle(p, rectTextBoxRepetirContrassenya);
         }
     }
 }
