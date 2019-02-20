@@ -50,7 +50,7 @@
             this.textBoxNom.Margin = new System.Windows.Forms.Padding(90, 30, 90, 3);
             this.textBoxNom.Name = "textBoxNom";
             this.textBoxNom.Size = new System.Drawing.Size(514, 33);
-            this.textBoxNom.TabIndex = 2;
+            this.textBoxNom.TabIndex = 1;
             this.textBoxNom.Text = "Nom";
             // 
             // textBoxEmail
@@ -62,7 +62,7 @@
             this.textBoxEmail.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(514, 33);
-            this.textBoxEmail.TabIndex = 3;
+            this.textBoxEmail.TabIndex = 2;
             this.textBoxEmail.Text = "Email";
             // 
             // textBoxContrassenya
@@ -74,7 +74,7 @@
             this.textBoxContrassenya.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.textBoxContrassenya.Name = "textBoxContrassenya";
             this.textBoxContrassenya.Size = new System.Drawing.Size(514, 33);
-            this.textBoxContrassenya.TabIndex = 4;
+            this.textBoxContrassenya.TabIndex = 3;
             this.textBoxContrassenya.Text = "Contrasenya";
             // 
             // textBoxRepetirContrasenya
@@ -86,7 +86,7 @@
             this.textBoxRepetirContrasenya.Margin = new System.Windows.Forms.Padding(3, 30, 3, 3);
             this.textBoxRepetirContrasenya.Name = "textBoxRepetirContrasenya";
             this.textBoxRepetirContrasenya.Size = new System.Drawing.Size(514, 33);
-            this.textBoxRepetirContrasenya.TabIndex = 5;
+            this.textBoxRepetirContrasenya.TabIndex = 4;
             this.textBoxRepetirContrasenya.Text = "Repetir contrasenya";
             // 
             // buttonRegistrarse
@@ -101,7 +101,7 @@
             this.buttonRegistrarse.Margin = new System.Windows.Forms.Padding(3, 50, 3, 3);
             this.buttonRegistrarse.Name = "buttonRegistrarse";
             this.buttonRegistrarse.Size = new System.Drawing.Size(209, 51);
-            this.buttonRegistrarse.TabIndex = 6;
+            this.buttonRegistrarse.TabIndex = 5;
             this.buttonRegistrarse.Text = "Registrar-se";
             this.buttonRegistrarse.UseVisualStyleBackColor = false;
             // 
@@ -115,7 +115,7 @@
             this.buttonIniciarSessio.Margin = new System.Windows.Forms.Padding(3, 30, 3, 30);
             this.buttonIniciarSessio.Name = "buttonIniciarSessio";
             this.buttonIniciarSessio.Size = new System.Drawing.Size(286, 46);
-            this.buttonIniciarSessio.TabIndex = 7;
+            this.buttonIniciarSessio.TabIndex = 6;
             this.buttonIniciarSessio.Text = "Iniciar sessió";
             this.buttonIniciarSessio.UseVisualStyleBackColor = true;
             // 
@@ -141,7 +141,7 @@
             this.buttonMinimizeApp.Margin = new System.Windows.Forms.Padding(3, 10, 10, 3);
             this.buttonMinimizeApp.Name = "buttonMinimizeApp";
             this.buttonMinimizeApp.Size = new System.Drawing.Size(25, 23);
-            this.buttonMinimizeApp.TabIndex = 1;
+            this.buttonMinimizeApp.TabIndex = 0;
             this.buttonMinimizeApp.UseVisualStyleBackColor = true;
             this.buttonMinimizeApp.Click += new System.EventHandler(this.buttonMinimizeApp_Click);
             // 
