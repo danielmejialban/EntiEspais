@@ -36,6 +36,7 @@
             this.textBoxContrassenya = new System.Windows.Forms.TextBox();
             this.textBoxRepetirContrasenya = new System.Windows.Forms.TextBox();
             this.buttonRegistrarse = new System.Windows.Forms.Button();
+            this.buttonIniciarSessio = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonMinimizeApp
@@ -67,11 +68,11 @@
             // textBoxNom
             // 
             this.textBoxNom.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.13F);
+            this.textBoxNom.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
             this.textBoxNom.ForeColor = System.Drawing.Color.White;
             this.textBoxNom.Location = new System.Drawing.Point(154, 99);
             this.textBoxNom.Name = "textBoxNom";
-            this.textBoxNom.Size = new System.Drawing.Size(514, 25);
+            this.textBoxNom.Size = new System.Drawing.Size(514, 33);
             this.textBoxNom.TabIndex = 2;
             this.textBoxNom.Text = "Nom";
             // 
@@ -114,20 +115,35 @@
             this.buttonRegistrarse.Cursor = System.Windows.Forms.Cursors.Default;
             this.buttonRegistrarse.FlatAppearance.BorderSize = 0;
             this.buttonRegistrarse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F);
             this.buttonRegistrarse.ForeColor = System.Drawing.Color.White;
-            this.buttonRegistrarse.Location = new System.Drawing.Point(512, 388);
+            this.buttonRegistrarse.Location = new System.Drawing.Point(459, 392);
             this.buttonRegistrarse.Name = "buttonRegistrarse";
-            this.buttonRegistrarse.Size = new System.Drawing.Size(156, 51);
+            this.buttonRegistrarse.Size = new System.Drawing.Size(209, 51);
             this.buttonRegistrarse.TabIndex = 6;
             this.buttonRegistrarse.Text = "Registrar-se";
             this.buttonRegistrarse.UseVisualStyleBackColor = false;
+            // 
+            // buttonIniciarSessio
+            // 
+            this.buttonIniciarSessio.FlatAppearance.BorderSize = 0;
+            this.buttonIniciarSessio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonIniciarSessio.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.17F, System.Drawing.FontStyle.Underline);
+            this.buttonIniciarSessio.ForeColor = System.Drawing.Color.White;
+            this.buttonIniciarSessio.Location = new System.Drawing.Point(264, 474);
+            this.buttonIniciarSessio.Name = "buttonIniciarSessio";
+            this.buttonIniciarSessio.Size = new System.Drawing.Size(286, 46);
+            this.buttonIniciarSessio.TabIndex = 7;
+            this.buttonIniciarSessio.Text = "Iniciar sessió";
+            this.buttonIniciarSessio.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(222)))), ((int)(((byte)(213)))));
-            this.ClientSize = new System.Drawing.Size(849, 507);
+            this.ClientSize = new System.Drawing.Size(849, 552);
+            this.Controls.Add(this.buttonIniciarSessio);
             this.Controls.Add(this.buttonRegistrarse);
             this.Controls.Add(this.textBoxRepetirContrasenya);
             this.Controls.Add(this.textBoxContrassenya);
@@ -158,6 +174,7 @@
         private System.Windows.Forms.TextBox textBoxContrassenya;
         private System.Windows.Forms.TextBox textBoxRepetirContrasenya;
         private System.Windows.Forms.Button buttonRegistrarse;
+        private System.Windows.Forms.Button buttonIniciarSessio;
     }
 }
 
