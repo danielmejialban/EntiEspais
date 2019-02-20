@@ -179,7 +179,65 @@ namespace EntiEspais
 
         private void buttonRegistrarse_Click(object sender, EventArgs e)
         {
-
+            // Comprobamos que el textBox Nom no está con el texto por defecto o null (por si acaso)
+            if(textBoxNom.Text != nom && textBoxNom.Text != "")
+            {
+                // Comprobamos que el textBox email no está con el texto por defecto o null (por si acaso)
+                if (textBoxEmail.Text != email && textBoxEmail.Text != "")
+                {
+                    // Comprobamos que el email es válido
+                    if (textBoxEmail.Text.Contains("@") && textBoxEmail.Text.Contains("."))
+                    {
+                        // Comprobamos que el textBox contrassenya no está con el texto por defecto o null (por si acaso)
+                        if (textBoxContrassenya.Text != contrassenya && textBoxContrassenya.Text != "")
+                        {
+                            // Comprobamos que el textBox contrassenya no está con el texto por defecto o null (por si acaso)
+                            if (textBoxRepetirContrasenya.Text != repetirContrassenya && textBoxRepetirContrasenya.Text != "")
+                            {
+                                // Comprobamos que las dos contraseñas coinciden
+                                if(textBoxContrassenya.Text == textBoxRepetirContrasenya.Text)
+                                {
+                                    /*
+                                     * 
+                                     * AÑADIR FUNCIÓN PARA ABIR EL SIGUIENTE FORMULARIO
+                                     * 
+                                     */ 
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Les contrassenyes no coincideixen", "Atenció", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                    textBoxContrassenya.Focus();
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Introdueix una contrassenya vàlida", "Atenció", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                textBoxRepetirContrasenya.Focus();
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Introdueix una contrassenya vàlida", "Atenció", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            textBoxContrassenya.Focus();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Introdueix un email vàlid", "Atenció", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        textBoxEmail.Focus();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Introdueix un email", "Atenció", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    textBoxEmail.Focus();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Introdueix un nom d'usuari", "Atenció", MessageBoxButtons.OK,MessageBoxIcon.Error);
+                textBoxNom.Focus();
+            }
         }
     }
 
